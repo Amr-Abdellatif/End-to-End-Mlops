@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mlProject
+Version: 0.0.0
+Summary: A small python package for ml app
+Home-page: https://github.com/Amr Osama/End-to-end-ML-Project-with-MLflow
+Author: Amr Osama
+Author-email: amrosama42@gmail.com
+Project-URL: Bug Tracker, https://github.com/Amr Osama/End-to-end-ML-Project-with-MLflow/issues
+
+This is the long description about the project End to End mlops with MLFLOW

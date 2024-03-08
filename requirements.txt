@@ -1,0 +1,15 @@
+pandas                   # Install the pandas library
+mlflow==2.2.2             # Install mlflow version 2.2.2
+notebook                 # Install the notebook library
+numpy                    # Install the numpy library
+scikit-learn             # Install the scikit-learn library
+matplotlib               # Install the matplotlib library
+python-box==6.0.2        # Install python-box version 6.0.2
+pyYAML                   # Install the pyYAML library
+tqdm                     # Install the tqdm library
+ensure==1.0.2            # Install ensure version 1.0.2
+joblib                   # Install the joblib library
+types-PyYAML             # Install the types-PyYAML library
+Flask                    # Install the Flask library
+Flask-Cors               # Install the Flask-Cors library
+-e .                     # Install the current project in editable mode, looking for setup.py 
