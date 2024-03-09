@@ -14,7 +14,7 @@ In this project im building a MLops project based on MLFlow tool
 3. building config yaml variables
 4. buildig data ingestion 
 5. building data validation
-
+6. building data transformation
 
 ### More Detailed walkthrough -> Tracing path for each step from main.py
 1. DataIngestionTrainingPipeline() -> stage_01_data_ingestion -> configuration.py (class ConfigurationManager) -> Constants folder (__init__.py) -> init.py is pointing to 3 yaml files -> config.yaml contains the configuration required for data ingestion
