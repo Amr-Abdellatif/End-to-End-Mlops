@@ -8,12 +8,20 @@ In this project im building a MLops project based on MLFlow tool
 4. making a Venv -> virtual environment and installing a requirements.txt file
 
 
-## Walkthrough
-1. first step i'm testing everystep in the research folder which is full of notebooks
+## Bird's eye Walkthrough 
+1. first step i'm testing every step in the research folder which is full of notebooks
 2. building logging files
 3. building config yaml variables
 4. buildig data ingestion 
 5. building data validation
+
+
+### More Detailed walkthrough -> Tracing path for each step from main.py
+1. DataIngestionTrainingPipeline() -> stage_01_data_ingestion -> configuration.py (class ConfigurationManager) -> Constants folder (__init__.py) -> init.py is pointing to 3 yaml files -> config.yaml contains the configuration required for data ingestion
+
+2. write me later ...
+
+3. config.yaml insertion -> define `class DataTransformationConfig:` ->
 
 
 ## Workflows
@@ -27,3 +35,6 @@ In this project im building a MLops project based on MLFlow tool
 7. Update the pipeline 
 8. Update the main.py   # ui related
 9. Update the app.py    # ui related
+
+## Tips and tricks
+I use VSCode for this so Ctrl+p is so handful when it comes to jumping between files

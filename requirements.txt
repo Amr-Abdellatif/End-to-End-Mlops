@@ -12,4 +12,4 @@ joblib                   # Install the joblib library
 types-PyYAML             # Install the types-PyYAML library
 Flask                    # Install the Flask library
 Flask-Cors               # Install the Flask-Cors library
--e .                     # Install the current project in editable mode, looking for setup.py 
+-e .                     # Install the current project in editable mode
