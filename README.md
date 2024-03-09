@@ -21,7 +21,7 @@ In this project im building a MLops project based on MLFlow tool
 
 2. write me later ...
 
-3. config.yaml insertion -> define `class DataTransformationConfig:` ->
+3. config.yaml insertion -> define `class DataTransformationConfig:` -> `class ConfigurationManager:` (def get_data_transformation_config(self) -> DataTransformationConfig:) -> `class DataTransformation:` (def train_test_spliting(self):) -> Worflows copy and paste parts -> create stage 3 pipeline in which inside of it we're checking if the previous step returns `True` or not to initiate this stage3.py 
 
 
 ## Workflows
