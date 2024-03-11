@@ -15,13 +15,11 @@ In this project im building a MLops project based on MLFlow tool
 4. buildig data ingestion 
 5. building data validation
 6. building data transformation
-
-### More Detailed walkthrough -> Tracing path for each step from main.py
-1. DataIngestionTrainingPipeline() -> stage_01_data_ingestion -> configuration.py (class ConfigurationManager) -> Constants folder (__init__.py) -> init.py is pointing to 3 yaml files -> config.yaml contains the configuration required for data ingestion
-
-2. write me later ...
-
-3. config.yaml insertion -> define `class DataTransformationConfig:` -> `class ConfigurationManager:` (def get_data_transformation_config(self) -> DataTransformationConfig:) -> `class DataTransformation:` (def train_test_spliting(self):) -> Worflows copy and paste parts -> create stage 3 pipeline in which inside of it we're checking if the previous step returns `True` or not to initiate this stage3.py 
+7. building data trainer
+8. building data evaluation
+9. prediction
+10. web application
+11. deployment
 
 
 ## Workflows
@@ -46,22 +44,22 @@ I use VSCode for this so Ctrl+p is so handful when it comes to jumping between f
 Clone the repository
 
 ```bash
-https://github.com/entbappy/End-to-end-Machine-Learning-Project-with-MLflow
+https://github.com/Amr-Abdellatif/End-to-End-Mlops-with-MLFlow.git
 ```
-### STEP 01- Create a conda environment after opening the repository
+### STEP 01- Create a virtual environment after opening the repository
 
 ```bash
-conda create -n mlproj python=3.8 -y
+python -m venv venv
 ```
 
 ```bash
-conda activate mlproj
+./venv/Scripts/activate
 ```
 
 
 ### STEP 02- install the requirements
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 
@@ -169,3 +167,10 @@ MLflow
  - Logging & tagging your model
 
 
+
+### More Detailed walkthrough -> Tracing path for each step from main.py
+1. DataIngestionTrainingPipeline() -> stage_01_data_ingestion -> configuration.py (class ConfigurationManager) -> Constants folder (__init__.py) -> init.py is pointing to 3 yaml files -> config.yaml contains the configuration required for data ingestion
+
+2. write me later ...
+
+3. config.yaml insertion -> define `class DataTransformationConfig:` -> `class ConfigurationManager:` (def get_data_transformation_config(self) -> DataTransformationConfig:) -> `class DataTransformation:` (def train_test_spliting(self):) -> Worflows copy and paste parts -> create stage 3 pipeline in which inside of it we're checking if the previous step returns `True` or not to initiate this stage3.py 
