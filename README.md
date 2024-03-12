@@ -1,4 +1,4 @@
-In this project im building a MLops project based on MLFlow tool
+# In this project im building a MLops project based on MLFlow tool along side ci/cd with aws deployment
 
 ## Requirements to figure this out
 
